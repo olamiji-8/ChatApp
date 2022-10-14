@@ -1,9 +1,15 @@
-
+import {ChatEngine} from "react-chat-engine"
 function App() {
   return (
-      <div>
-        <h3>Hello</h3>
-      </div>
+    <div>
+      <ChatEngine
+      height = "100vh"
+      projectID = ""
+      userName = ""
+      userSecret = ""
+      />
+    </div>
+    
   );
 }
 
